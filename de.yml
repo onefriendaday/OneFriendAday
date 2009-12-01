@@ -1,0 +1,485 @@
+--- 
+de: 
+  activerecord: 
+    errors: 
+      messages: 
+        accepted: "muss akzeptiert werden"
+        blank: "muss ausgefüllt werden"
+        confirmation: "stimmt nicht mit der Bestätigung überein"
+        empty: "muss ausgefüllt werden"
+        equal_to: "muss genau {{count}} sein"
+        even: "muss gerade sein"
+        exclusion: "ist nicht verfügbar"
+        greater_than: "muss größer als {{count}} sein"
+        greater_than_or_equal_to: "muss größer oder gleich {{count}} sein"
+        inclusion: "ist kein gültiger Wert"
+        invalid: "ist nicht gültig"
+        less_than: "muss kleiner als {{count}} sein"
+        less_than_or_equal_to: "muss kleiner oder gleich {{count}} sein"
+        not_a_number: "ist keine Zahl"
+        odd: "muss ungerade sein"
+        taken: "ist bereits vergeben"
+        too_long: "ist zu lang (nicht mehr als {{count}} Zeichen)"
+        too_short: "ist zu kurz (nicht weniger als {{count}} Zeichen)"
+        wrong_length: "hat die falsche Länge (muss genau {{count}} Zeichen haben)"
+      template: 
+        body: "Bitte überprüfen Sie die folgenden Felder:"
+        header: 
+          one: "Konnte dieses {{model}} Objekt nicht speichern: 1 Fehler."
+          other: "Konnte dieses {{model}} Objekt nicht speichern: {{count}} Fehler."
+  date: 
+    abbr_day_names: 
+      - So
+      - Mo
+      - Di
+      - Mi
+      - Do
+      - Fr
+      - Sa
+    abbr_month_names: 
+      - ~
+      - Jan
+      - Feb
+      - Mär
+      - Apr
+      - Mai
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Okt
+      - Nov
+      - Dez
+    day_names: 
+      - Sonntag
+      - Montag
+      - Dienstag
+      - Mittwoch
+      - Donnerstag
+      - Freitag
+      - Samstag
+    formats: 
+      default: "%d.%m.%Y"
+      long: "%e. %B %Y"
+      only_day: "%e"
+      short: "%e. %b"
+    month_names: 
+      - ~
+      - Januar
+      - Februar
+      - März
+      - April
+      - Mai
+      - Juni
+      - Juli
+      - August
+      - September
+      - Oktober
+      - November
+      - Dezember
+    order: 
+      - !ruby/symbol day
+      - !ruby/symbol month
+      - !ruby/symbol year
+  datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        one: "etwa 1 Stunde"
+        other: "etwa {{count}} Stunden"
+      about_x_months: 
+        one: "etwa 1 Monat"
+        other: "etwa {{count}} Monate"
+      about_x_years: 
+        one: "etwa 1 Jahr"
+        other: "etwa {{count}} Jahre"
+      half_a_minute: "eine halbe Minute"
+      less_than_x_minutes: 
+        one: "weniger als eine Minute"
+        other: "weniger als {{count}} Minuten"
+        zero: "weniger als 1 Minute"
+      less_than_x_seconds: 
+        one: "weniger als 1 Sekunde"
+        other: "weniger als {{count}} Sekunden"
+        zero: "weniger als 1 Sekunde"
+      over_x_years: 
+        one: "mehr als 1 Jahr"
+        other: "mehr als {{count}} Jahre"
+      x_days: 
+        one: "1 Tag"
+        other: "{{count}} Tage"
+      x_minutes: 
+        one: "1 Minute"
+        other: "{{count}} Minuten"
+      x_months: 
+        one: "1 Monat"
+        other: "{{count}} Monate"
+      x_seconds: 
+        one: "1 Sekunde"
+        other: "{{count}} Sekunden"
+  number: 
+    currency: 
+      format: 
+        delimiter: ~
+        format: "%n%u"
+        precision: ~
+        separator: ""
+        unit: €
+    format: 
+      delimiter: "."
+      precision: 2
+      separator: ","
+    human: 
+      format: 
+        delimiter: ""
+        precision: 1
+    percentage: 
+      format: 
+        delimiter: ""
+    precision: 
+      format: 
+        delimiter: ""
+  support: 
+    array: 
+      sentence_connector: und
+      skip_last_comma: "true"
+  time: 
+    am: vormittags
+    formats: 
+      default: "%A, %e. %B %Y, %H:%M Uhr"
+      long: "%A, %e. %B %Y, %H:%M Uhr"
+      short: "%e. %B, %H:%M Uhr"
+      time: "%H:%M"
+    pm: nachmittags
+  txt: 
+    about_label: "Über mich"
+    about_me_tab: "Über mich"
+    about_us_link: "Über uns"
+    account_activation_message: "Eine Aktivierungs-E-Mail wurde an '{{email}}' gesendet."
+    activate_btn: Aktivieren
+    activation: "Bitte klicke auf folgenden Link um deinen Account zu aktivieren."
+    add_comment_btn: "Kommentar hinzufügen"
+    add_fav_friend_btn: "Zu den besten Freunden hinzufügen"
+    add_images_hint: "Klicke zuerst auf 'Dateien hinzufügen' und dann auf den 'Upload' Button."
+    add_my_possibilities_btn: "Meine Möglichkeiten hinzufügen"
+    add_possibilities_btn: "Möglichkeiten hinzufügen"
+    add_possibility_btn: "Möglichkeit hinzufügen"
+    age_label: Alter
+    allowed_filetypes_description: "Alle Dateien..."
+    already_member: "Log dich bitte hier ein wenn du schon ein Mitglied bist."
+    already_received_friend_headline: "Du hast heute bereits einen Freund erhalten"
+    already_received_friend_message: "Die nächste Chance einen neuen Freund zu bekommen ist am {{date}}"
+    any_comments_message: "Deine Kommentare"
+    bio_html_hint: "Schreib ein paar Zeilen über dich."
+    browse_link_innerhtml: "Dateien hinzufügen"
+    cancel_btn: abbrechen
+    change_btn: Ändern
+    change_email_or_password: "Email oder Passwort ändern"
+    change_login: "Ändere deinen Login-Namen"
+    change_password_btn: "Passwort ändern"
+    check_email_message: "Bitte ruf deine Emails ab"
+    click_start_message: "Sorry - es wurde leider gerade kein Freund für Dich gefunden. Klicke bitte noch einmal auf 'get friend'!"
+    comments_for_user: "Kommentare für {{user}}"
+    comments_tab: Kommentare
+    confirm_comment_deletion: "Willst du den Kommentar wirklich löschen?"
+    confirm_image_deletion: "Willst du das Bild wirklich löschen?"
+    congratulations_headline: Glückwunsch!
+    cooliris_info: "Verwende {{cooliris}} um schnell durch deine Freundesliste zu navigieren."
+    could_not_find_account_message: "Wir konnten keinen Account mit dieser Email-Adresse finden '{{email}}'. Bitte überprüfe deine Email-Adresse noch einmal!"
+    country_label: Land
+    deactivate_app_btn: Deaktivieren
+    delete_comment_btn: "Kommentar von {{comment_username}} löschen"
+    display_name_hint: "Bitte gib deinen öffentlich sichtbaren Namen an."
+    edit_app_btn: Bearbeiten
+    edit_comments_btn: "Kommentare bearbeiten"
+    edit_personal_info_btn: "Persönliche Daten bearbeiten"
+    edit_settings_btn: "Einstellungen bearbeiten"
+    email_directions: "Bitte gib deine E-Mail Adresse ein. Wir senden dir dann einen neuen Login-Key zu."
+    email_greeting: "Hallo {{user}}!"
+    email_send_intro: "Dein Freund {{user}} hat dir über onefriendaday.org eine E-Mail gesendet."
+    email_submit: "Sende mir den Link"
+    email_tab: "Email und Passwort"
+    favourite_friend: "Beste Freunde"
+    feedback_link: Feedback
+    female: Weiblich
+    filter_favourites_label: Favouriten
+    filter_online_label: Online
+    filter_options: Optionen
+    filter_submit: Filter
+    filter_username_label: "Suche nach Benutzer (optional)"
+    finished_filling: "Wenn du mit dem Konfigurieren Deiner Möglichkeiten fertig bist kannst du:"
+    for_user: "für {{user}}"
+    friend: Freund
+    friendslist_empty: "Klicke auf den Button über mir um deinen ersten Freund zu bekommen."
+    get_new_friend_btn: "Klicke <span>hier</span> um einen<br /> neuen Freund zu bekommen"
+    goto_newfriend_message: "Gehe zu deinem neuen Freund"
+    goto_profile_message: "Klicke hier um zu deinem Profil zu gelangen"
+    if_user_unavailable: "Wenn die Person nicht reagiert"
+    images_should_be_message: "Die Fotos sollten mindestens 200x200px haben."
+    import_adressbook_submit: "Vom Adressbuch importieren"
+    import_contacts: "Deine Adressen von Google Mail, Yahoo or Hotmail importieren."
+    instructions_link: Anleitung
+    invalid_login_message: "Fehler beim Login oder beim Passwort, bitte probiere es noch einmal."
+    keep_me_logged_in: "Angemeldet bleiben"
+    kick_body: "Please login at ofad and get in touch with your new friend. You have one hour time, otherwise you loose this friend and have no chance to get another on this day.+"
+    kick_intro: "Dein Freund {{user}} versuchte Kontakt mit dir aufzunehmen."
+    kick_todo: "Gehe zum Profil des Freundes und starte die Unterhaltung."
+    kick_user_info: "This User doesn't react, send him a notification-email. The User have one hour time to request your inquiry, otherwise you get another friend today.+"
+    labels: 
+      age: Geburtsdatum
+      bio_html: "Über mich"
+      country: Land
+      display_name: "Angezeigter name"
+      email: Email
+      languages: Gesprochene Sprachen
+      login: Benutzername
+      openid_url: "Openid url"
+      password: Passwort
+      password_confirmation: "Password bestätigen"
+      sex: Geschlecht
+      time_zone: Zeitzone
+      website: Website
+      message: Kommentar schreiben
+      main_language: "Bevorzugte Sprache"
+      username: "Username"
+      city: "Stadt"
+      connect_with_user: "Connect"
+    languages_label: Gespr. Sprachen
+    last_friend_was: "Heute hast du wieder die Möglichkeit einen neuen Freund zu bekommen."
+    latest_friends_headline: "Meine Freunde"
+    lets_play_message: "Lass uns {{game}} spielen!"
+    logged_out_message: "Du wurdest erfolgreich abgemeldet."
+    login_action: Login
+    login_field: "Dein Benutzername sollte mindestens 2 Zeichen haben und darf keine Leerzeichen oder Sonderzeichen enthalten."
+    login_info: "Wenn du bereits ein Mitglied bist, log dich bitte hier ein."
+    login_link: Login
+    login_title: Login
+    login_with_open_id: "OpenID"
+    logout_here_btn: "Hier Abmelden"
+    logout_link: Abmelden
+    male: Männlich
+    matching: "Gemeinsame Möglichkeiten"
+    meet_vips_headline: "Treffe die VIP's"
+    meet_vips_headline_long: "Treffe die VIP's"
+    meet_vips_headline_new: "Treffe die VIP's"
+    meet_vips_message: "Klicke an diesen Tagen auf den 'Make Friend' Button und gewinne einen Promi als Freund"
+    meet_vips_message_long: "<p>Treffe VIP's</p>"
+    meet_vips_message_new: "<p>Treffe VIP's</p>"
+    message_from: "Nachricht von {{domain}}"
+    more_results_btn: "Mehr Ergebnisse"
+    my_friends_cooliris: "Meine Freunde"
+    my_possibilities: "Meine Möglichkeiten"
+    my_possibilities_link: "Möglichkeiten bearbeiten"
+    my_profile: "Mein Profil"
+    my_profile_link: "Mein Profil"
+    my_website: "Meine Website"
+    new_chat_messages: "Du hast eine neue Chat-Nachricht erhalten."
+    new_email: "Neue Nachricht"
+    new_friend_chance_message: "Du hast heute wieder die Möglichkeit einen neuen Freund zu bekommen"
+    new_friend_headline: "Neugierig? Wer wird heute dein neuer Freund?"
+    new_friend_intro: "Viel Spaß beim Plaudern! Dein neuer Freund ist:{{user}}"
+    new_friend_is: "Dein neuer Freund ist<br /><span>{{user}}</span>"
+    new_friend_message: "<p>Der Zufall verschafft einem oft die besten Freundschaften, lasse dich daher überraschen und treffe bei oneFriendAday die unterschiedlichsten Menschen. Damit du deinen neuen Kontakt näher kennen lernen kannst gibt es ein Paar Regeln/Limitierungen zu beachten:</p>
+    <ol>
+    <li>Du bekommst jeden Tag nur genau einen Freund.</li>
+    <li>Deinen neuen Freund bestimmt der Zufall. Einziges Kriterium ist eine gemeinsam gesprochene Sprache.</li>
+    <li>Wenn du einen neuen Freund bekommen hast solltest du im oneFriendAday Chat mindestens ein 'Hallo!' schreiben.</li>
+    <li>Gehe mit deinem neuen Kontakt respektvoll und höflich um.</li>
+    </ol>"
+    new_messages: "neue Nachrichten"
+    newer_btn: Neuere
+    next: "Nächste »"
+    next_step: "Nächster Schritt"
+    next_steps: "Nächste Schritte"
+    no_comments_yet: "Noch keine Kommentare erhalten."
+    no_comments_yet_public: "{{user}} hat noch keine Kommentare!"
+    no_images_yet_message: "Noch keine Fotos hochgeladen."
+    no_more_results: "Keine weiteren Ergebnisse"
+    not_matching: "Derzeit keine gemeinsamen Möglichkeiten"
+    notify_friend: "Freund benachrichtigen"
+    notify_user_btn: "Eine Nachricht senden"
+    ofad_notification: "Onefriendaday Benachrichtigung"
+    ofad_welcome: "Willkommen bei Onefriendaday"
+    older_btn: Älter
+    open_id_directions: OpenID
+    openid_no_user_message: "Unter dieser URL {{openid_url}} exisistiert leider kein Benutzer"
+    or: oder
+    or_text: "oder {{cancel}}"
+    password: Passwort
+    password_confirmation_hint: "Bitte wiederhole dein Passwort."
+    password_hint: "Bitte gib hier dein Passwort ein."
+    personal_message_label: Nachricht
+    personal_message_prefill: "Hey! What's up? come to onefriendaday.com and chat with me."
+    pictures_tab: Fotos
+    play_game_btn: "Jetzt spielen!"
+    please_wait_message: "{{spinner}} Bitte warten..."
+    please_wait_until_countdown_is_over: "Du hast noch keinen neuen Freund bekommen. Bitte warte bis der Countdown abgelaufen ist."
+    pn: PN
+    possibilities_not_set: "Du hast noch keine Möglichkeiten aktiviert."
+    previous: "« Vorherige"
+    read_more_btn: "Mehr lesen"
+    receive_new_friend_btn: "Neuen Freund empfangen"
+    received_message: "Du hast eine neue Nachricht von {{user}} empfangen"
+    register_link: Registrieren
+    remember_me: "Mich auf diesem Computer merken"
+    remind_me_btn: "Per Email erinnern"
+    remove_fav_friend_btn: "Von den Favoriten löschen"
+    reset_password: "Passwort zurücksetzen"
+    reset_password_headline: "Passwort zurücksetzen"
+    rush_hour_headline_new: "Nimm an unseren Events teil!"
+    rush_hour_message_new: "<p>Log Dich ein wenn die meisten Benutzer online sind.</p>"
+    rush_hours_headline: Rushhours
+    rush_hours_message: "Get the most out of OneFriendAday and click the „make friend“ button on these dates where most users are online.+"
+    save_app_btn: Speichern
+    save_contactinfo_submit: "Änderungen speichern"
+    search_for_app: Suchen
+    seconds: Sekunden
+    send_a_email_btn: "Ein Email senden"
+    send_email: "Email senden"
+    send_email_to_friend: "Sende deinem Freund eine Email."
+    send_mail_submit: "Email senden"
+    send_message_submit: "Nachricht senden"
+    set_your_timezone_btn: "Zeitzone festlegen"
+    settings_for_app: "Einstellungen für {{app}}"
+    settings_link: Profil bearbeiten
+    settings_saved_message: "Die Einstellungen wurden gespeichert."
+    settings_title: Profil bearbeiten/Einstellungen
+    sex_label: Geschlecht
+    show_all: "Alle anzeigen"
+    show_all_vips_btn: "Alle VIP's anzeigen"
+    show_events_btn: "Alle Events anzeigen"
+    show_filter: Filtern
+    signup: Registrieren
+    signup_cannot_sent_message: "Fehler beim Anmelden mit der Email Adresse '{{email}}'. Bitte versuche es später noch einmal."
+    signup_complete_message: "Registrierung erfolgreich!"
+    signup_info: "100 Prozent kostenlos."
+    signup_permanent_error_message: "Es gab einen Fehler bei der Registrierung '{{email}}'. Bitte überprüfe deine Email Adresse."
+    signup_submit: Registrieren
+    signup_with_openid_btn: "OpenID"
+    start_btn: Start
+    start_chatting: "Chatten beginnen!"
+    tell_a_friend_btn: Weiterempfehlen
+    tell_a_friend_link: Weiterempfehlen
+    temporary_login_message: "Ein temporäres Login Email wurde an '{{email}}' gesendet."
+    terms_of_use: Nutzungsbedingungen
+    tour_link: Tour
+    type_in_message_label: "Bitte gib hier deine Nachricht ein:"
+    upload_images: "Bilder hochladen"
+    upload_link_innerhtml: Upload
+    upload_pictures_btn: "Bilder hinaufladen"
+    user_has_written: "hat geschrieben"
+    user_is_notified: "Der Benutzer wurde informiert."
+    user_offline: (offline)
+    user_online: (online)
+    username: Benutzername
+    userpage: "{{user}}'s Profil"
+    view_details_btn: "Details ansehen"
+    view_profile_btn: "Profil ansehen"
+    vip_info_message: "An diesen Tagen einloggen<br />und du bekommst die Chance<br />einen VIP kennen zu lernen."
+    viplist_empty: "Zur Zeit keine VIP's."
+    waiting_for_a_friend: "Bitte warten! Ein neuer Freund wird gesucht..."
+    website_hint: "Ohne http://"
+    welcome_back_headline: "Willkommen zurück!"
+    welcome_back_one: "Hallo {{user}}!<br />Deine letzte Anmeldung war am {{date}}"
+    what_can_i_do: "Was kann ich tun?"
+    what_can_i_do_with: "Was kann ich mit {{user}} tun?"
+    what_else_todo: "Was kann ich sonst noch tun?"
+    win_price_headline: "Gewinne einen Preis"
+    win_price_message: "Klicken auf den 'get friend' button an einen der folgenden Tagen und gewinne Sachpreise von OneFriendAday."
+    wrong_user_message: "Bist du nicht {{user}}, dann klicke hier: {{logout}}"
+    you: Ich
+    you_are_new_headline: "Du bist neu"
+    you_are_new_message: "Bitte vervollständige unter Einstellungen zuerst dein Profil."
+    your_ofad_team: "Dein OneFriendAday-Team!"
+    your_open_id_hint: "Deine OpenID Account URL"
+    your_profile_picture: "Mein Profilfoto"
+    your_timezone_now: "Deine aktuelle Zeitzone ist: {{zone}}/{{time}}"
+    what_is: "Was ist {{app}}?"
+    close_window_btn: "Schließen"
+    set_as_profileimage: "Als Profilbild festlegen"
+    delete_image: "Bild löschen"
+    error_on_save: "Fehler beim Speichern"
+    username_not_available: "Der Username ist bereits vergeben. Bitte versuche einen anderen."
+    mute_btn: "Mute"
+    unmute_btn: "Unmute"
+    add_your_possibilities: "Füge weitere Möglichkeiten hinzu (optional)"
+    create_your_account: "Account erstellen"
+    setup_your_profile: "Profil finalisieren"
+    step: "Schritt"
+    friendlist_empty_with_filter: "Kein Freund mit diesen Kriterien gefunden"
+    you_where_invited_to_play: "Sie wurden um {{game}} zu Spielen von {{user}} eingeladen."
+    accept_invitation: "Akzeptieren"
+    add_edit_possibility_btn: "Hinzufügen/Bearbeiten"
+    no_possibility_yet: "Noch keine Möglichkeiten eingetragen"
+    feedback_info: "Wir wollen OneFriendaDay ständig verbessern. Bitte klicke {{link}} wenn du einen Verbesserungsvorschlag hast."
+    feedback_info_link: "hier"
+    last_message_to: "Neueste Nachricht an"
+    goto_my_profile: "Zeige mein Profil"
+    goto_get_new_friend: "Ich will einen neuen Freund"
+    after_filling_out_possibilities: "Nach dem aktivieren/bearbeiten deiner Möglichkeiten kannst du entweder zu deinem Profil gehen oder direkt einen neuen Freund empfangen."
+    finaly_your_new_friend_is: "Du hast {{user}} als neuen Freund bekommen"
+    special_events: "Events"
+    video_contest_headline: "Gewinne einen Trip nach Rio"
+    video_contest_intro: "Sprich eine Person an die du nicht kennst, verbringe einen Tag mit ihr und sende uns ein Youtube-Video von Deinen Erlebnissen."
+    more_videos_btn: "Zu den Videos"
+    more_contest_information_btn: "Mehr Informationen"
+    possibilities_title: "Möglichkeiten"
+    special_events_long_text: "Einen iPod Touch gewinnen? Klicke zum richtigen Zeitpunkt auf den „GET FRIEND“ Button und du bekommst einen Freund und zusätzlich einen Preis."
+    go_back_login: "Zurück zum login"
+    event_short_intro_frontpage: "Einen iPod Touch gewinnen? Klicke zum richtigen Zeitpunkt auf den „GET FRIEND“ Button und du bekommst einen Freund und zusätzlich einen Preis."
+    lb_event_overview: "Übersicht"
+    lb_event_detail: "Detail"
+    lb_event_terms: "Teilnahmebedingungen"
+    event_first_step: "Einloggen oder neu anmelden."
+    event_first_step_hint: "Richtige Zeitzone angeben nicht vergessen!"
+    event_second_step: "Am {{time}} auf <br>den „GET FRIEND“ Button klicken."
+    event_third_step: "Bist du der zehnte bekommst <br>du den Preis."
+    event_subscribe: "Dieses Event merken <span>(Du wirst per Email eine Stunde vorher daran erinnert)</span>"
+    event_unsubscribe: "Abmelden"
+    login_to_subscribe: "<span>Du musst angemeldet sein um dieses Event zu Deiner Liste hinzufügen zu können</span>"
+    event_terms_and_rules_headline: "Teilnahmebedingungen"
+    event_terms_and_rules: "1. Veranstalter dieses Gewinnspiels ist OneFriendADay.
+    <br><br>
+    2. Die Teilnahme ist kostenlos und unabhängig von dem Erwerb von Waren oder Dienstleistungen. Mit der Teilnahme an dem Gewinnspiel akzeptiert der Benutzer diese Teilnahmebedingungen.
+    <br><br>
+    3. Teilnahmeberechtigt sind Personen mit Wohnsitz in Deutschland, der Schweiz und in Österreich, die bei der Teilnahme mindestens 14 Jahre alt sind. Angestellte von OneFriendADay und andere an der Konzeption und Umsetzung dieses Gewinnspiels beteiligte Personen sind von der Teilnahme ausgeschlossen. Teilnehmer des Gewinnspiels ist diejenige Person, der die Email-Adresse, die bei der Anmeldung zum Gewinnspiel angegeben worden ist, gehört. Es ist pro „Teilnehmer“ nur eine Teilnahme möglich; die wiederholte Teilnahme kann je nach Ermessen von OneFriendADay den Verlust der Teilnahmeberechtigung zur Folge haben.
+    <br><br>
+    4. Es werden nur die im Gewinnspiel näher beschriebenen Preise verlost. OneFriendADay kann für jegliche technische Störungen, insbesondere Ausfälle des Telefonnetzes, des Netzwerks, der Elektronik oder der Computer nicht verantwortlich gemacht werden.
+    <br><br>
+    5. Der Gewinner eines Preises wird zeitnah zur Verlosung per Email unter Verwendung der bei der Anmeldung gemachten weiteren Angaben benachrichtigt. Der Gewinner hat den Erhalt der Gewinnbenachrichtigung unverzüglich, spätestens jedoch bis 14 Tage nach Gewinnermittlung OneFriendADay gegenüber zu bestätigen und die von OneFriendADay benötigten Angaben zu machen. Andernfalls ist OneFriendADay berechtigt, einen neuen Gewinner auszulosen. Mit der Annahme des Preises willigt der Gewinner ein, dass sein Name und sein Foto von OneFriendADay und mit OneFriendADay verbundenen Unternehmen zu Werbezwecken ohne Vergütung verwendet werden dürfen.
+    <br><br>
+    6. Mit Aufgabe des Preises bei der Post geht die Gefahr auf den Gewinner über. Für Lieferschäden ist OneFriendADay nicht verantwortlich.
+    <br><br>
+    7. Eine Barauszahlung, Auszahlung in Sachwerten oder Tausch der Gewinne ist nicht möglich. Die Preise sind nicht übertragbar. Der Gewinner akzeptiert notwendige Änderungen des Gewinns, die durch andere außerhalb des Einflussbereichs der am Gewinnspiel beteiligten Firmen liegenden Faktoren bedingt sind.
+    <br><br>
+    8. Die Entscheidungen von OneFriendADay sind endgültig. Diesbezügliche Anfragen können nicht beantwortet werden. OneFriendADay behält sich das Recht vor, das Gewinnspiel ganz oder zeitweise auszusetzen, wenn irgendwelche Schwierigkeiten auftreten, die die Integrität des Gewinnspiels gefährden.
+    <br><br>
+    9. OneFriendADay behält sich ferner das Recht vor, diese Teilnahmebedingungen auch unangekündigt zu ändern.
+    <br><br>
+    10. Jegliche Schadenersatzverpflichtung von OneFriendADay und ihrer Organe, Angestellten und Erfüllungsgehilfen aus oder im Zusammenhang mit dem Gewinnspiel, gleich aus welchem Rechtsgrund, ist, soweit gesetzlich zulässig, auf Fälle von Vorsatz oder grober Fahrlässigkeit beschränkt.
+    <br><br>
+    11. Die bei diesem Gewinnspiel von Ihnen gemachten Angaben werden nur zum Zwecke des Gewinnspiels verwendet und nicht an Dritte weitergegeben. 
+    <br><br>
+    12. Der Rechtsweg ist ausgeschlossen."
+    win_prices_headline: "Mit oneFriendAday Preise gewinnen!"
+    signup_step_possibilities_intro: "Füge hier deine Möglichkeiten hinzu die dein neuer Freund sehen soll."
+    you_got_a_new_message_from: "You got a message from {{user}}"
+    go_to_the_profile_of_friend: "Got to the profile of {{friend}}"
+    hello: "Hello"
+    you_were_connected_to: "You were connected to {{friend}}"
+    new_here: "Neu hier?"
+    signup_now_headline: "Neu hier?"
+    signup_now_btn: "Registriere dich jetzt!"
+    create_profile: "Account erstellen"
+    ready: "Fertig"
+    get_friend: "Get new friend!"
+    get_new_friend: "Neuen Freund bekommen"
+    this_is_your_profile: "Hallo {{user}}! Das ist deine persönliche Profilseite, die nur für Personen deiner Freundesliste sichtbar ist."
+    searching_friend: "Suche Freund..."
+    no_friend_found_btn: "Kein Freund gefunden.<br><span>Bitte probiere es noch einmal!</span>"
+    this_user_doesnt_exist_title: "Dieser User existiert nicht mehr."
+    this_user_doesnt_exist_longtext: "Upps!"
+    event_subscriptions_headline: "Deine nächsten Events"
+    user_has_no_apps: "Dein Freund hat keine Möglichkeiten in {{title}} eingetragen."
+    fill_out_and_save: "Trage deine Daten ein und klicke auf speichern."
+    more_on_blog: "Mehr auf unserem Blog"
+    no_images_yet_message_public: "{{user}} hat noch keine Bilder."
