@@ -399,7 +399,7 @@ en:
     lb_event_terms: "Terms and rules"
     event_first_step: "Login or sign up a new account."
     event_first_step_hint: "Don't forget to add your current timezone!"
-    event_second_step: "Click on 2. November, 2 pm (UTC) at <br>the „new friend“ button."
+    event_second_step: "Click on {{time}} at <br>the „new friend“ button."
     event_third_step: "You will win a price <br> if you are the tenth person to click the button."
     event_subscribe: "Remember this event <span>(You'll be notified one hour before the event takes place</span>"
     event_unsubscribe: "Logout"
