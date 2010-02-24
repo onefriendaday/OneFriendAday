@@ -1,432 +1,580 @@
+--- 
 pt: 
-  txt:
-    labels:
-        login: "Login"
-        password: "Password"
-        display_name: "Display name"
-        website: "Website"
-        age: "Age"
-        sex: "Sex"
-        country: "Country"
-        time_zone: "Time zone"
-        languages: "Other languages"
-        bio_html: "About you"
-        openid_url: "Openid url"
-        email: "Email"
-        password_confirmation: "Password confirmation"
-        message: "Write a comment"
-        main_language: "Preferred language"
-        title: "Title"
-        title_de: "Title german"
-        description: "Description"
-        description_de: "Description German"
-        button_text: "Button label"
-        button_text_de: "Button label German"
-        username: "Username"
-        #admin
-        unconnected: "Not connected"
-        manager: "Manager"
-        vip: "VIP"
-        vip_intro: "VIP Intro"
-        vip_info: "VIP Body"
-        navigation_items: "Navigation Items"
-        subheadline: "Subheadline"
-        intro: "Intro"
-        body: "Body"
-        user_id: "User ID"
-        extended: "Extended"
-        published: "Published"
-        permalink: "Permalink"
-        position: "Position"
-        parent_id: "Parent ID"
-        default: "Default"
-        button_link: "Button link function"
-        category_id: "Category"
-        game_id: "GameID"
-        subtitle: "Subtitle"
-        category: "Category"
-        event_type: "Type of Event"
-        title_en: "Title English"
-        description_en: "Description English "
-        button_text_en: "Button label English"
-        city: "City"
-        connect_with_user: "Connect"
-        subheadline_en: "Subtitle English"
-        subheadline_de: "Subtitle German"
-        intro_en: "Intro English"
-        intro_de: "Intro German"
-        body_en: "Body English"
-        body_de: "Body German"
-        subtitle_en: "Subtitle English"
-        subtitle_de: "Subtitle German"
-        banner_code: "Banner code"
-
-    #pagination
-    next: "Next &raquo;"
-    previous: "&laquo; Previous"
-
-    #new
-    #chat_controller
-    friend: "Friend"
-    received_message: "You've received a message from {{user}}"
-    new_messages: "new messages"
-    you: "You"
-
-    #sessions_controller
-    logged_out_message: "You are logged out."
-    openid_no_user_message: "Sorry, a user with the identity URL {{openid_url}} does not exists"
-    invalid_login_message: "Invalid login or password, please try again ."
-    new_friend_chance_message: "Today is your chance to meet a new friend!"
-
-    #users_controller
-    new_chat_messages: "Please check the chat window, you've received new messages."
-    last_friend_was: "Today is your chance to meet a new friend!"
-
-    new_friend_intro: "We are happy to introduce you to... {{user}}"
-    could_not_find_account_message: "We cannot find an account with this email address '{{email}}'. Are you sure you typed it in correctly?"
-    signup_permanent_error_message: "A permanent error occurred while sending the sign-in message to '{{email}}'. Please check the e-mail address."
-    signup_cannot_sent_message: "At the moment, the sign-in message cannot be sent to '{{email}}'. Please, try again later."
-    temporary_login_message: "A temporary login email has been sent to '{{email}}'."
-    account_activation_message: "An account activation email has been sent to '{{email}}'."
-    signup_complete_message: "Your sign-in was successful!"
-    settings_saved_message: "Your settings have been saved."
-    user_is_notified: "The user has been notified."
-
-    #application_helper
-    allowed_filetypes_description: "All files..."
-    browse_link_innerhtml: "Add files"
-    upload_link_innerhtml: "Upload"
-
-    #newsletter_subscriber
-    check_email_message: "Please check the e-mail address" #users
-
-    #user_mailer
-    ofad_welcome: "Welcome to Onefriendaday"
-    message_from: "Message from {{domain}}"
-
-    #apps_views
-    activate_btn: "Activate"
-    settings_for_app: "Settings for {{app}}"
-    save_app_btn: "Save"
-    or_text: "or {{cancel}}" #users
-    cancel_btn: "Cancel" #users
-    deactivate_app_btn: "Deactivate"
-    edit_app_btn: "Edit"
-
-    #assets_views
-    upload_images: "Upload Images"
-    images_should_be_message: "The Images should be at least 200x200."
-    add_images_hint: "First click 'Add Files' and then go to'upload'."
-    please_wait_message: "{{spinner}} Please wait..."
-    no_images_yet_message: "No images uploaded yet."
-    confirm_image_deletion: "Are you sure to delete this image?"
-
-    #comments_views
-    user_has_written: "has written"
-    delete_comment_btn: "Delete the comment of {{comment_username}}"
-    confirm_comment_deletion: "Are you sure to delete this comment?"
-    no_comments_yet: "You have no comments at the moment"
-    any_comments_message: "These are your comments."
-    add_comment_btn: "Add a comment"
-    no_comments_yet_public: "{{user}} has no comments!"
-    comments_for_user: "Comments for {{user}}"
-
-    #contents_view
-    welcome_back_headline: "Welcome back!"
-    welcome_back_one: "Hello {{user}}!<br />Last time you've been logged in: {{date}}"
-    goto_profile_message: "Click here to access your profile"
-    goto_newfriend_message: "Click here to get a new friend"
-    or: "or"
-    wrong_user_message: "Are you not {{user}}, then {{logout}}"
-    logout_here_btn: "Logout here"
-    meet_vips_headline: "Meet VIP's"
-    meet_vips_message: "At the following dates click on the „make friend“ button and you can win a celebrity as your friend."
-    win_price_headline: "Win a price"
-    win_price_message: "At the following dates click on the „make friend“ button and win a gift sponsored by OneFriendAday."
-    rush_hours_headline: "Rush hours"
-    rush_hours_message: "Get the most out of OneFriendAday. At the following dates, click on the „make friend“ button while most of the users are online."
-    video_contest_headline: "Video contest"
-    video_contest_intro: "Make a video!"
-    more_videos_btn: "More videos"
-    more_contest_information_btn: "Contest information"
-    event_short_intro_frontpage: "If you login during the follwing times and click on the \"new friend\" button, you have the chance to meet a new friend as well as to win a price."
-    more_on_blog: "Find out more on our blog"
-
-    #layouts_views
-    my_profile_link: "My profile"
-    settings_link: "Edit my profile"
-    my_possibilities_link: "Edit my possibilities"
-    logout_link: "Logout"
-    tell_a_friend_link: "Tell a friend"
-    register_link: "Register"
-    login_link: "Login"
-    about_us_link: "About us"
-    tour_link: "Tour"
-    instructions_link: "Instructions"
-    feedback_link: "Feedback"
-    terms_of_use: "Terms of use"
-
-    #sessions_views
-    username: "Username"
-    password: "Password"
-    keep_me_logged_in: "Keep me logged in"
-    remember_me: "Remember me on this computer"
-    open_id_directions: "OpenID"
-    your_open_id_hint: "Your OpenID Account url" #users form
-    login_action: "Login"
-    reset_password: "Reset password"
-    reset_password_headline: "Reset password"
-    email_directions: "Enter your email and a brand new login key will be sent to you.  To login, click the link in the email and then change your password."
-    email_submit: "Send me the link per email"
-    login_with_open_id: "Login with OpenID"
-    already_member: "If you are already a member, login here."
-
-    #user_mailer_views
-    ofad_welcome: "Welcome to Ofad"
-    activation: "Please visit the link below to activate your account."
-
-    #users_views
-    import_contacts: "Import your Adressbook from Google Mail, Yahoo or Hotmail."
-    import_adressbook_submit: "Import addressbook"
-    display_name_hint: "Chosse your display name."
-    website_hint: "Without http://"
-    male: "Male"
-    female: "Female"
-    bio_html_hint: "Write a few words about yourself."
-    save_contactinfo_submit: "Save changes"
-    password_hint: "Type in your password."
-    password_confirmation_hint: "Type in your password again."
-    signup_submit: "Signin"
-    get_new_friend_btn: "Click <span>here</span> to get<br /> a new friend today"
-    new_friend_is: "Your friend today is<br /><span>{{user}}</span>"
-    show_all: "Show all"
-    latest_friends_headline: "My recent friends"
-    show_filter: "Filter"
-    filter_options: "Options"
-    filter_online_label: "Online only"
-    filter_favourites_label: "Favourites only"
-    filter_username_label: "Search for user (optional)"
-    filter_submit: "Filter"
-    newer_btn: "more recent"
-    older_btn: "Older"
-    user_online: "(online)"
-    user_offline: "(offline)"
-    friendslist_empty: "Welcome! Click on the button above to get your first friend."
-    cooliris_info: "You can easily scroll through a list of users with freeware {{cooliris}}."
-    kick_user_info: "This user doesn't react so send him a notification email. Then, the user has an hour time to respond to you. If not, you'll get another friend."
-    vip_info_message: "Login at these days and<br /><you have the chance to get<br />a VIP as new friend."
-    viplist_empty: "There are no VIP's available at the moment."
-    send_mail_submit: "Send email"
-    change_login: "Please change your login"
-    login_field: "Logins should include at least two characters and should consist of letters, numbers or underscore"
-    change_email_or_password: "Change email or password"
-    settings_title: "Settings"
-    for_user: "for {{user}}"
-    search_for_app: "Search"
-    finished_filling: "If you are finished with filling out your possibilities you can:"
-    view_profile_btn: "View your profile"
-    receive_new_friend_btn: "Get a new friend"
-    remove_fav_friend_btn: "Remove from your favourites friend"
-    add_fav_friend_btn: "Add as your favourite friend"
-    signup_with_openid_btn: "or signin with OpenID"
-    signup: "Signin"
-    signup_info: "It's free for everybody."
-    login_title: "Login"
-    login_info: "Login here if you are already a member."
-    seconds: "seconds"
-    waiting_for_a_friend: "Waiting for a friend"
-    click_start_message: "Sorry! No friend was found. Try again and click on the button above."
-    start_btn: "Start"
-    about_me_tab: "About me"
-    pictures_tab: "Pictures"
-    comments_tab: "Comments"
-    email_tab: "Email and password"
-    start_chatting: "Start chatting!"
-    type_in_message_label: "Type in your message:"
-    send_message_submit: "Send message"
-    if_user_unavailable: "If this user doesn't react"
-    notify_user_btn: "Send aan email notification"
-    what_else_todo: "What else can I do?"
-    send_a_email_btn: "Send an email"
-    send_email: "Send email"
-    next_steps: "Next steps"
-    add_my_possibilities_btn: "Add my possibilities"
-    possibilities_not_set: "You haven't set your possibilities yet."
-    your_timezone_now: "Your current timezone: {{zone}}/{{time}}"
-    set_your_timezone_btn: "Set your timezone"
-    your_profile_picture: "Your profile picture"
-    change_btn: "Change"
-    what_can_i_do: "What can I do?"
-    edit_settings_btn: "Edit Settings"
-    tell_a_friend_btn: "Tell a friend"
-    favourite_friend: "Favourite friends"
-    age_label: "Age"
-    sex_label: "Sex"
-    country_label: "Country"
-    languages_label: "Other languages"
-    about_label: "About"
-    what_can_i_do_with: "What can I do with {{user}}"
-    my_possibilities: "My possibilities"
-    matching: "Matching"
-    not_matching: "Not matching"
-    add_possibility_btn: "Add possibility"
-    userpage: "{{user}}'s profile"
-    play_game_btn: "Play game now!"
-    lets_play_message: "Let's play {{game}}"
-    my_friends_cooliris: "My friends"
-    more_results_btn: "More results"
-    no_more_results: "No more results"
-    personal_message_prefill: "Hey! What's up? Come to onefriendaday.com and chat with me."
-    personal_message_label: "Personal message"
-    new_email: "New email"
-    send_email_to_friend: "Send your friend an email."
-    notify_friend: "Notify friend"
-    congratulations_headline: "Congratulations!"
-    please_wait_until_countdown_is_over: "Sorry, you did not get a friend. The countdown will stop when you leave the page."
-    my_website: "My website"
-    my_profile: "My profile"
-    next_step: "Next step"
-    male: "Male"
-    female: "Female"
-    edit_personal_info_btn: "Edit personal information"
-    upload_pictures_btn: "Upload pictures"
-    edit_comments_btn: "Edit comments"
-    change_password_btn: "Change password"
-    add_possibilities_btn: "Add possibilities"
-    you_are_new_headline: "You are new"
-    you_are_new_message: "Are you sure you have filled in all information? If yes, click \"Get a friend\""
-    already_received_friend_headline: "For today, you already got a friend"
-    already_received_friend_message: "Your next chance to get a new friend is on {{date}}"
-    new_friend_headline: "It\'s time to get a new friend!"
-    new_friend_message: "<p>Today you have the chance to get a new friend. After you clicked the start button, a countdown will start. Within <b>60 seconds</b> another user in the community  will be connected to you providing he/she also clicked the button.</p>
-    <p>If there are a lot of people in the community ... Please <b>DON'T</b> close the window when the countdown is running.</p>"
-    rush_hour_headline_new: "Come to our events!"
-    rush_hour_message_new: "<p>Login when most users are online.</p>"
-    meet_vips_headline_new: "Meet the VIP's"
-    meet_vips_message_new: "<p>Meet vips.</p>"
-    view_details_btn: "View details"
-    show_events_btn: "Show all events"
-    show_all_vips_btn: "Show all Vips"
-    meet_vips_headline_long: "Meet the VIP's"
-    meet_vips_message_long: "<p>Meet vips</p>"
-    read_more_btn: "Read more"
-    remind_me_btn: "Remind me per email"
-    what_is: "What is"
-    close_window_btn: "Close"
-    set_as_profileimage: "Set as profile picture"
-    delete_image: "Delete picture"
-    username_not_available: "Username is not available. Please try another one."
-    mute_btn: "Mute"
-    unmute_btn: "Unmute"
-    setup_your_profile: "Setup your profile"
-    add_your_possibilities: "Add your Possibilities"
-    create_your_account: "Create your account"
-    setup_your_profile: "Setup your profile"
-    step: "Step"
-    friendlist_empty_with_filter: "No friends found"
-    you_where_invited_to_play: "You where invited from {{user}} to play {{game}}."
-    accept_invitation: "Accept"
-    add_edit_possibility_btn: "Add/Edit"
-    no_possibility_yet: "No possibility yet"
-    feedback_info: "We want to improve our site. Click {{link}} if you have any ideas."
-    feedback_info_link: "here"
-    last_message_to: "Last message to"
-    goto_my_profile: "Show to my profile"
-    goto_get_new_friend: "Go to get new friend"
-    after_filling_out_possibilities: "Click on the button below to go to your profile and to get your first friend."
-    finaly_your_new_friend_is: "Finally, your new friend is {{user}}"
-    special_events: "Special events"
-    what_is: "What is {{app}}?"
-    possibilities_title: "Possibilities"
-    special_events_long_text: "Find a friend now"
-    go_back_login: "Go back"
-    signup_step_possibilities_intro: "Here you can add/edit your possibilities."
-    new_here: "New user?"
-    signup_now_headline: "New here?"
-    signup_now_btn: "Signin now!"
-    create_profile: "Set up your account"
-    ready: "Ready"
-    get_friend: "Get a new friend!"
-    get_new_friend: "Get a new friend"
-    this_is_your_profile: "Hi {{user}}! This is your personal profile. It is only visible to people in your list of friends."
-    searching_friend: "Searching friend..."
-    no_friend_found_btn: "No friend found.<br><span>Try it again!</span>"
-    this_user_doesnt_exist_title: "This user doesn't exist."
-    this_user_doesnt_exist_longtext: "Upps!"
-    event_subscriptions_headline: "Event subscriptions"
-    user_has_no_apps: "User has no apps in the category {{title}}"
-    fill_out_and_save: "Fill out the form and click "save" to activate."
-
-    #user_mailer
-    email_greeting: "Hello {{user}}!"
-    kick_intro: "Your friend {{user}} tried to contact you on onefriendaday.com but you didn't react."
-    kick_body: "Please login at ofad and get in touch with your new friend. You have one hour time, otherwise you loose this friend and have no chance to get another on this day."
-    your_ofad_team: "Your oneFriendaDay Team!"
-    pn: "PN"
-    kick_todo: "Go to your friends profile and start chatting"
-    ofad_notification: "Onefriendaday notification"
-    email_send_intro: "Your friend {{user}} has sent you an email with onefriendaday.com."
-    you_got_a_new_message_from: "You've got a message from {{user}}"
-    go_to_the_profile_of_friend: "Visit the profile of your new friend: {{friend}}"
-    hello: "Hello"
-    you_were_connected_to: "You were connected to {{friend}}"
-    no_images_yet_message_public: "{{user}} has no images yet."
-    
-    #universal
-    error_on_save: "Error on saving"
-    
-    #admin
-    contents: "Contents"
-    events: "Events"
-    categories: "Categories"
-    users: "Users"
-    add_content: "Add content"
-    add_event: "Add event"
-    add_category: "Add category"
-    add_user: "Add user"
-    dashboard: "Dashboard"
-    apps: "Apps"
-    statistics: "Statistics"
-    preferences: "Preferences"
-    new_item: "New"
-    submit_changes: "Submit changes"
-    save_and_continue_editing: "Save and continue"
-    loading: "loading..."
-    
-    #event_views
-    lb_event_overview: "Overview"
-    lb_event_detail: "Detail"
-    lb_event_terms: "Terms and rules"
-    event_first_step: "Login or sign up a new account."
-    event_first_step_hint: "Don't forget to add your current timezone!"
-    event_second_step: "Click on {{time}} at <br>the „new friend“ button."
-    event_third_step: "You will win a price <br> if you are the tenth person to click the button."
-    event_subscribe: "Remember this event <span>(You'll be notified one hour before the event takes place</span>"
-    event_unsubscribe: "Logout"
-    login_to_subscribe: "<span>You need to be logged in to add this event to your list</span>"
-    event_terms_and_rules_headline: "Terms and Rules"
-    event_terms_and_rules: "First organiser of this lottery is OneFriendADay.
-    <br><br>
-    2. Die Teilnahme ist kostenlos und unabhängig von dem Erwerb von Waren oder Dienstleistungen. Mit der Teilnahme an dem Gewinnspiel akzeptiert der Benutzer diese Teilnahmebedingungen.
-    <br><br>
-    3. Teilnahmeberechtigt sind Personen mit Wohnsitz in Deutschland, der Schweiz und in Österreich, die bei der Teilnahme mindestens 14 Jahre alt sind. Angestellte von OneFriendADay und andere an der Konzeption und Umsetzung dieses Gewinnspiels beteiligte Personen sind von der Teilnahme ausgeschlossen. Teilnehmer des Gewinnspiels ist diejenige Person, der die Email-Adresse, die bei der Anmeldung zum Gewinnspiel angegeben worden ist, gehört. Es ist pro „Teilnehmer“ nur eine Teilnahme möglich; die wiederholte Teilnahme kann je nach Ermessen von OneFriendADay den Verlust der Teilnahmeberechtigung zur Folge haben.
-    <br><br>
-    4. Es werden nur die im Gewinnspiel näher beschriebenen Preise verlost. OneFriendADay kann für jegliche technische Störungen, insbesondere Ausfälle des Telefonnetzes, des Netzwerks, der Elektronik oder der Computer nicht verantwortlich gemacht werden.
-    <br><br>
-    5. Der Gewinner eines Preises wird zeitnah zur Verlosung per Email unter Verwendung der bei der Anmeldung gemachten weiteren Angaben benachrichtigt. Der Gewinner hat den Erhalt der Gewinnbenachrichtigung unverzüglich, spätestens jedoch bis 14 Tage nach Gewinnermittlung OneFriendADay gegenüber zu bestätigen und die von OneFriendADay benötigten Angaben zu machen. Andernfalls ist OneFriendADay berechtigt, einen neuen Gewinner auszulosen. Mit der Annahme des Preises willigt der Gewinner ein, dass sein Name und sein Foto von OneFriendADay und mit OneFriendADay nach dem Aktiengesetz verbundenen Unternehmen zu Werbezwecken ohne Vergütung verwendet werden dürfen.
-    <br><br>
-    6. Mit Aufgabe des Preises bei der Post geht die Gefahr auf den Gewinner über. Für Lieferschäden ist OneFriendADay nicht verantwortlich.
-    <br><br>
-    7. Eine Barauszahlung, Auszahlung in Sachwerten oder Tausch der Gewinne ist nicht möglich. Die Preise sind nicht übertragbar. Der Gewinner akzeptiert notwendige Änderungen des Gewinns, die durch andere außerhalb des Einflussbereichs der am Gewinnspiel beteiligten Firmen liegenden Faktoren bedingt sind.
-    <br><br>
-    8. Die Entscheidungen von OneFriendADay sind endgültig. Diesbezügliche Anfragen können nicht beantwortet werden. OneFriendADay behält sich das Recht vor, das Gewinnspiel ganz oder zeitweise auszusetzen, wenn irgendwelche Schwierigkeiten auftreten, die die Integrität des Gewinnspiels gefährden.
-    <br><br>
-    9. OneFriendADay behält sich ferner das Recht vor, diese Teilnahmebedingungen auch unangekündigt zu ändern.
-    <br><br>
-    10. Jegliche Schadenersatzverpflichtung von OneFriendADay und ihrer Organe, Angestellten und Erfüllungsgehilfen aus oder im Zusammenhang mit dem Gewinnspiel, gleich aus welchem Rechtsgrund, ist, soweit gesetzlich zulässig, auf Fälle von Vorsatz oder grober Fahrlässigkeit beschränkt.
-    <br><br>
-    11. Die bei diesem Gewinnspiel von Ihnen gemachten Angaben werden nur zum Zwecke des Gewinnspiels verwendet und nicht an Dritte weitergegeben. 
-    <br><br>
-    12. Der Rechtsweg ist ausgeschlossen."
+  activerecord: 
+    errors: 
+      messages: 
+        accepted: "deve ser aceito"
+        blank: "não pode ficar em branco"
+        confirmation: "não está de acordo com a confirmação"
+        empty: "não pode ficar vazio"
+        equal_to: "deve ser igual a {{count}}"
+        even: "deve ser par"
+        exclusion: "não está disponível"
+        greater_than: "deve ser maior do que {{count}}"
+        greater_than_or_equal_to: "deve ser maior ou igual a {{count}}"
+        inclusion: "não está incluído na lista"
+        invalid: "não é válido"
+        less_than: "deve ser menor do que {{count}}"
+        less_than_or_equal_to: "deve ser menor ou igual a {{count}}"
+        not_a_number: "não é um número"
+        odd: "deve ser ímpar"
+        record_invalid: "A validação falhou: {{errors}}"
+        taken: "já está em uso"
+        too_long: "é muito longo (máximo: {{count}} caracteres)"
+        too_short: "é muito curto (mínimo: {{count}} caracteres)"
+        wrong_length: "não possui o tamanho esperado ({{count}} caracteres)"
+      template: 
+        body: "Por favor, verifique o(s) seguinte(s) campo(s):"
+        header: 
+          one: "Não foi possível gravar {{model}}: 1 erro"
+          other: "Não foi possível gravar {{model}}: {{count}} erros."
+  date: 
+    abbr_day_names: 
+      - Dom
+      - Seg
+      - Ter
+      - Qua
+      - Qui
+      - Sex
+      - Sáb
+    abbr_month_names: 
+      - ~
+      - Jan
+      - Fev
+      - Mar
+      - Abr
+      - Mai
+      - Jun
+      - Jul
+      - Ago
+      - Set
+      - Out
+      - Nov
+      - Dez
+    day_names: 
+      - Domingo
+      - Segunda
+      - Terça
+      - Quarta
+      - Quinta
+      - Sexta
+      - Sábado
+    formats: 
+      default: "%d/%m/%Y"
+      long: "%d de %B de %Y"
+      only_day: "%e"
+      short: "%d de %B"
+    month_names: 
+      - ~
+      - Janeiro
+      - Fevereiro
+      - Março
+      - Abril
+      - Maio
+      - Junho
+      - Julho
+      - Agosto
+      - Setembro
+      - Outubro
+      - Novembro
+      - Dezembro
+    order: 
+      - !ruby/symbol day
+      - !ruby/symbol month
+      - !ruby/symbol year
+  datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        one: "aproximadamente 1 hora"
+        other: "aproximadamente {{count}} horas"
+      about_x_months: 
+        one: "aproximadamente 1 mês"
+        other: "aproximadamente {{count}} meses"
+      about_x_years: 
+        one: "aproximadamente 1 ano"
+        other: "aproximadamente {{count}} anos"
+      almost_x_years: 
+        one: "quase 1 ano"
+        other: "quase {{count}} anos"
+      half_a_minute: "meio minuto"
+      less_than_x_minutes: 
+        one: "menos de um minuto"
+        other: "menos de {{count}} minutos"
+        zero: "menos de um minuto"
+      less_than_x_seconds: 
+        one: "menos de 1 segundo"
+        other: "menos de {{count}} segundos"
+        zero: "menos de um secundo"
+      over_x_years: 
+        one: "mais de 1 ano"
+        other: "mais de {{count}} anos"
+      x_days: 
+        one: "1 dia"
+        other: "{{count}} dias"
+      x_minutes: 
+        one: "1 minuto"
+        other: "{{count}} minutos"
+      x_months: 
+        one: "1 mês"
+        other: "{{count}} meses"
+      x_seconds: 
+        one: "1 segundo"
+        other: "{{count}} segundos"
+    prompts: 
+      day: Dia
+      hour: Hora
+      minute: Minuto
+      month: Mês
+      second: Segundos
+      year: Ano
+  number: 
+    currency: 
+      format: 
+        delimiter: "."
+        format: "%u %n"
+        precision: 2
+        separator: ","
+        unit: R$
+    format: 
+      delimiter: "."
+      precision: 3
+      separator: ","
+    human: 
+      format: 
+        delimiter: "."
+        precision: 1
+      storage_units: 
+        format: "%n %u"
+        units: 
+          byte: 
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage: 
+      format: 
+        delimiter: "."
+    precision: 
+      format: 
+        delimiter: "."
+  support: 
+    array: 
+      last_word_connector: " e "
+      sentence_connector: e
+      skip_last_comma: "true"
+      two_words_connector: " e "
+      words_connector: ", "
+  time: 
+    am: am
+    formats: 
+      default: "%A, %d de %B de %Y, %H:%M h"
+      long: "%A, %d de %B de %Y, %H:%M h"
+      short: "%d/%m, %H:%M h"
+      time: "%H:%M"
+    pm: pm
+  txt: 
+    about_label: Sobre
+    about_me_tab: "Sobre mim"
+    about_us_headline: "Quem somos"
+    about_us_link: "Quem somos"
+    about_us_long: "Onefriendaday é uma start-up com financiamento privado empresarial, com escritórios em Perg (Áustria) e Rio de Janeiro (Brasil). O projeto desenvolvido por curiosidade - mais precisamente, de ser curioso sobre as pessoas no mundo. Pessoas de todo este planeta onefriendaday usar e aproveitar sua oportunidade diária para atender uma pessoa interessante"
+    accept_invitation: Aceitar
+    account_activation_message: "Um email de activação de conta foi emnviado a você '{{email}}'."
+    actions: Ações
+    activate_btn: Activar
+    activation: "Por favor visite o enlace abaixo para activar sua conta."
+    active_chats: "conversas ativas"
+    add_category: "Adicionar categoria"
+    add_comment_btn: "Escrever um comentario"
+    add_content: "Adicionar conteúdo"
+    add_edit_possibility_btn: Adicionar/Editar
+    add_event: "Adicionar evento"
+    add_fav_friend_btn: "Adicioanr como amigo favorito"
+    add_images_hint: "Primero faça click em 'Adicionar arquivos' e depois em 'subir'."
+    add_my_possibilities_btn: "Adicionar minhas aplicações"
+    add_possibilities_btn: "Adicionar aplicações"
+    add_possibility_btn: "Adicionar aplicação"
+    add_user: "Adicionar usuário"
+    add_your_possibilities: "Adicioanr suas aplicações"
+    after_filling_out_possibilities: "Faça click no botão abaixo para mostrar seu perfil e fazer seu primeiro amigo."
+    age_label: Edade
+    allowed_filetypes_description: "Todos os arquivos..."
+    already_member: "Se você já e membro, faça login aqui."
+    already_received_friend_headline: "Hoje, você já fez um amigo"
+    already_received_friend_message: "Sua próxima chance para fazer um amigo será {{date}}"
+    any_comments_message: "Estos são seus comentarios."
+    apps: Applicações
+    bio_html_hint: "Escreva umas poucas palavras sobre você."
+    browse_link_innerhtml: "Adicionar arquivos"
+    cancel_btn: Cancelar
+    categories: Categorias
+    change_btn: Modificar
+    change_email_or_password: "Modifique seu email ou senha"
+    change_login: "Por favor modifique login"
+    change_password_btn: "Modificar senha"
+    check_email_message: "Faça o favor de comprobar seu endereço de email"
+    check_your_settings: "Por favor, verifique suas configurações. Não poderia salvar esta informação."
+    choose_if_notified: "Você quer ser notificado por e-mail?"
+    click_start_message: "Desculpe! Nenhum amigo foi encontrado. Tente novamente e faça click no botão anterior."
+    close_window_btn: Fechar
+    comments_for_user: "Comentarios para {{user}}"
+    comments_tab: Comentários
+    confirm_comment_deletion: "Você tem certeza de apagar este comentario?"
+    confirm_image_deletion: "Você tem certeza de apagar esta imagem?"
+    congratulations_headline: Parabéns!
+    connected_to_manager: "Ups, você estava conectado a um membro da equipe de OneFriendAday!  Para garanty que você pode obter os amigos que estão online agora podemos conectar apenas os usuários que clicarem no botão 'new friend' botão.  No momento ninguém clicou no link 'new friend' botão, mas por favor, seja paciente. Vamos ligar-lhe, assim que encontrar um amigo.  Se você deixar a janela do navegador aberta, você recebe um aviso diretamente no site. Se você quiser deixar OneFriendAday iremos notificá-lo por e-mail. "
+    contents: Conteúdos
+    cooliris_info: "Você pode navegar facilmente através da lista de usuarios com software livre {{cooliris}}."
+    could_not_find_account_message: "Não podemos encontrar uma conta com este endereço de email '{{email}}'. Você tem certeza de que o escreveu correitamente?"
+    country_label: Pais
+    create_profile: "Definir sua conta"
+    create_your_account: "Críe uma conta"
+    dashboard: Painel
+    deactivate_app_btn: Deactivate
+    delete_comment_btn: "Apague o comentario de {{comment_username}}"
+    delete_image: "Apagar foto"
+    display_name_hint: "Escolha seu nome para mostrar."
+    download_presskit_de: "Baixa Presskit alemao"
+    download_presskit_en: "Baixa Presskit ingles"
+    drop_a_bomb: "Drop a bomb"
+    edit_app_btn: Editar
+    edit_comments_btn: "Editar comentários"
+    edit_personal_info_btn: "Editar informação pessoal"
+    edit_settings_btn: "Editar as configurações"
+    email_directions: "Introduza o seu endereço de email e um enlace sera enviado à você. Para fazer login, faça click no enlace e depois mude sua senha."
+    email_greeting: "Olá {{user}}!"
+    email_send_intro: "Seu amigo {{user}} enviou um email para você com onefriendaday.com."
+    email_submit: "Me envie o enlace pelo email"
+    email_tab: "Email e senha"
+    error_on_save: "Erro ao salvar"
+    event_first_step: "Entre ou  cadastre-se."
+    event_first_step_hint: "Não esqueça definir seu fuso horário!"
+    event_second_step: "Faça click em {{time}} no <br>botão „new friend“."
+    event_short_intro_frontpage: "Se você entrar durante as vezes seguintes e fazer click no botão „new friend“, você vai ter a chance de conhecer um novo amigo assim como ganahr um presente."
+    event_subscribe: "Recordar este evento <span>(Você será notificado uma hora antes deste evendo acontecer)</span>"
+    event_subscriptions_headline: "Subscrição a eventos"
+    event_terms_and_rules: "O primeiro organizador desta loteria é OneFriendADay. <br><br> 2. Die Teilnahme ist kostenlos und unabhängig von dem Erwerb von Waren oder Dienstleistungen. Mit der Teilnahme an dem Gewinnspiel akzeptiert der Benutzer diese Teilnahmebedingungen. <br><br> 3. Teilnahmeberechtigt sind Personen mit Wohnsitz in Deutschland, der Schweiz und in Österreich, die bei der Teilnahme mindestens 14 Jahre alt sind. Angestellte von OneFriendADay und andere an der Konzeption und Umsetzung dieses Gewinnspiels beteiligte Personen sind von der Teilnahme ausgeschlossen. Teilnehmer des Gewinnspiels ist diejenige Person, der die Email-Adresse, die bei der Anmeldung zum Gewinnspiel angegeben worden ist, gehört. Es ist pro „Teilnehmer“ nur eine Teilnahme möglich; die wiederholte Teilnahme kann je nach Ermessen von OneFriendADay den Verlust der Teilnahmeberechtigung zur Folge haben. <br><br> 4. Es werden nur die im Gewinnspiel näher beschriebenen Preise verlost. OneFriendADay kann für jegliche technische Störungen, insbesondere Ausfälle des Telefonnetzes, des Netzwerks, der Elektronik oder der Computer nicht verantwortlich gemacht werden. <br><br> 5. Der Gewinner eines Preises wird zeitnah zur Verlosung per Email unter Verwendung der bei der Anmeldung gemachten weiteren Angaben benachrichtigt. Der Gewinner hat den Erhalt der Gewinnbenachrichtigung unverzüglich, spätestens jedoch bis 14 Tage nach Gewinnermittlung OneFriendADay gegenüber zu bestätigen und die von OneFriendADay benötigten Angaben zu machen. Andernfalls ist OneFriendADay berechtigt, einen neuen Gewinner auszulosen. Mit der Annahme des Preises willigt der Gewinner ein, dass sein Name und sein Foto von OneFriendADay und mit OneFriendADay nach dem Aktiengesetz verbundenen Unternehmen zu Werbezwecken ohne Vergütung verwendet werden dürfen. <br><br> 6. Mit Aufgabe des Preises bei der Post geht die Gefahr auf den Gewinner über. Für Lieferschäden ist OneFriendADay nicht verantwortlich. <br><br> 7. Eine Barauszahlung, Auszahlung in Sachwerten oder Tausch der Gewinne ist nicht möglich. Die Preise sind nicht übertragbar. Der Gewinner akzeptiert notwendige Änderungen des Gewinns, die durch andere außerhalb des Einflussbereichs der am Gewinnspiel beteiligten Firmen liegenden Faktoren bedingt sind. <br><br> 8. Die Entscheidungen von OneFriendADay sind endgültig. Diesbezügliche Anfragen können nicht beantwortet werden. OneFriendADay behält sich das Recht vor, das Gewinnspiel ganz oder zeitweise auszusetzen, wenn irgendwelche Schwierigkeiten auftreten, die die Integrität des Gewinnspiels gefährden. <br><br> 9. OneFriendADay behält sich ferner das Recht vor, diese Teilnahmebedingungen auch unangekündigt zu ändern. <br><br> 10. Jegliche Schadenersatzverpflichtung von OneFriendADay und ihrer Organe, Angestellten und Erfüllungsgehilfen aus oder im Zusammenhang mit dem Gewinnspiel, gleich aus welchem Rechtsgrund, ist, soweit gesetzlich zulässig, auf Fälle von Vorsatz oder grober Fahrlässigkeit beschränkt. <br><br> 11. Die bei diesem Gewinnspiel von Ihnen gemachten Angaben werden nur zum Zwecke des Gewinnspiels verwendet und nicht an Dritte weitergegeben.  <br><br> 12. Der Rechtsweg ist ausgeschlossen."
+    event_terms_and_rules_headline: "Termos e Regras"
+    event_third_step: "Você ganhará um presente <br> se você é a décima pessoa em fazer click no botão."
+    event_unsubscribe: Sair
+    events: Eventos
+    favourite_friend: "Amigos favoritos"
+    feedback_info: "Nós queremos melhorar nosso site. Faça click {{link}} se você tiver idéias."
+    feedback_info_link: aqui
+    feedback_link: Resposta
+    female: Mulher
+    fill_out_and_save: "Complete o formulário e faça click em „Salvar“ para ativar."
+    filter_favourites_label: "Só favoritos"
+    filter_online_label: "Só online"
+    filter_options: Opções
+    filter_submit: Filtrar
+    filter_username_label: "Procurar por usuário (optional)"
+    finaly_your_new_friend_is: "Finalmente, seu novo amigo é {{user}}"
+    finished_filling: "Se você acabou de adicionar suas aplicações pode:"
+    for_user: "para {{user}}"
+    friend: Amigo
+    friendlist_empty_with_filter: "Nenhum amigo foi encontrado"
+    friends: Amigos
+    friendslist_empty: "Bem-vindo! Faça click no botão anterior para fazer seu primeiro amigo."
+    games: Jogos
+    get_friend: "Fazer um novo amigo!"
+    get_new_friend: "Fazer um novo amigo"
+    get_new_friend_btn: "Faça click <span>aqui</span> para fazer<br /> um novo amigo hoje"
+    go_back_login: Voltar
+    go_to_the_profile_of_friend: "Visite o perfidl do seu novo amigo: {{friend}}"
+    goto_get_new_friend: "Ir a fazer um novo amigo"
+    goto_my_profile: "Mostrar meu perfil"
+    goto_newfriend_message: "Click aqui para conhecer um novo amigo"
+    goto_profile_message: "Click aqui para acceder ao seu perfil"
+    have_connected_you_to: "Finalmente o seu amigo do dia foi encontrado. Comece a conversa agora: ((link))"
+    hello: Olá
+    if_user_unavailable: "Se o usuário não reagir"
+    images_should_be_message: "As imagms deverião ser ao menos 200x200."
+    import_adressbook_submit: "Importar lista de endereços"
+    import_contacts: "Importe seus contactos desde Google Mail, Yahoo ou Hotmail."
+    impressum: Impressum
+    instructions_link: Instruções
+    invalid_login_message: "Login ou senha invalida, tente novamente."
+    keep_me_logged_in: "Continuar em linha"
+    kick_body: "Por favor entre em ofad e comunique-se com seu novo amigo. Você tem uma hora de tempo, do contrário você perderá este amigo e não poderá fazer outro amigo hoje."
+    kick_intro: "Seu amigo{{user}} tentou comunicar-se com você em onefriendaday.com porém você não reagiu."
+    kick_todo: "Ir ao perfil dos seus amigos e começar um bate-papo"
+    kick_user_info: "Este usuário não reage, lhe envie um email de notificação. Então, o usuário tem uma hora para responder você. Se não, você fará outro amigo."
+    labels: 
+      Betreff: assunto
+      activated: Activado
+      age: Edade
+      banner_code: "Código faixa"
+      bio_html: "Sobre você"
+      body: Body
+      body_de: "Body Alemão"
+      body_en: "Body Inglês"
+      button_link: "Botão função enlaço"
+      button_text: "Botão de etiqueta"
+      button_text_de: "Botão de etiqueta alemão"
+      button_text_en: "Botão etiqueta Inglês"
+      category: Categoria
+      category_id: Categoria
+      city: Cidade
+      connect_with_user: Conectar
+      country: Pais
+      default: Defeito
+      description: Descrição
+      description_de: "Descrição alemão"
+      description_en: "Descrição Inglês "
+      display_name: "Mostrar nome"
+      email: Email
+      event_type: "Tipo de evento"
+      extended: Extended
+      firstname: Nome
+      game_id: GameID
+      intro: Introdução
+      intro_de: "Introdução Alemão"
+      intro_en: "Introdução Inglês"
+      languages: "Outros idiomas"
+      lastname: Sobrenome
+      login: login
+      main_language: "Idioma favorito"
+      manager: Gerente
+      message: "Escreva um comentario"
+      navigation_items: "Navegação Items"
+      newsletter_ids: Newsletters
+      newsletter_subscriber_ids: Assinantes
+      openid_url: "Openid url"
+      parent_id: "Parent ID"
+      password: Senha
+      password_confirmation: "Confirmação da senha"
+      permalink: Permalink
+      position: Posição
+      published: Publicado
+      sex: Sexo
+      subheadline: "Linha subtitulo"
+      subheadline_de: "Subtitulo Alemão"
+      subheadline_en: "Subtitulo Inglês"
+      subtitle: Subtitulo
+      subtitle_de: "Subtitulo Alemão"
+      subtitle_en: "Subtitulo Inglês"
+      template: Template
+      time_zone: "Zona horaria"
+      title: Titulo
+      title_de: "Titulo alemão"
+      title_en: "Titulo inglês"
+      unconnected: "Não conectado"
+      user_id: "Usuário ID"
+      username: "Nome usuário"
+      vip: VIP
+      vip_info: "VIP Body"
+      vip_intro: "VIP Introdução"
+      website: Website
+    language: Linguagem
+    language_message: "{{username}} prefere falar {{main_language}} e pode falar {{spoken_languages}}."
+    language_message_short: "{{username}} fala {{main_language}}"
+    languages: 
+      English: Inglês
+      German: Alemão
+      Portuguese: Português
+      de: Alemão
+      en: Inglês
+      pt: Português
+    languages_label: "Outros idiomas"
+    last_active: "Ultima ativação"
+    last_friend_was: "Hoje tem a chance de conhecer um novo amigo!"
+    last_message_to: "Ultima mensagem à"
+    latest_friends_headline: "Meus amigos recentes"
+    lb_event_detail: Detalhe
+    lb_event_overview: "Vista geral"
+    lb_event_terms: "Termos e regras"
+    lets_play_message: "Jogar {{game}}"
+    loading: carregando...
+    logged_out_message: "Você está desconectado"
+    login_action: Login
+    login_field: "O login deveria ter ao menos dois carateres e conter somente letras, numeros ou traços inferiores"
+    login_info: "Faça login aqui se você já é membro"
+    login_link: Login
+    login_title: Login
+    login_to_subscribe: "<span>Você tem eu estar registrado para adicionar este evento a sua lista</span>"
+    login_with_open_id: "Login com OpenID"
+    logout_here_btn: Sair
+    logout_link: Sair
+    male: Homem
+    matching: Comparar
+    meet_vips_headline: "Conhecer VIP's"
+    meet_vips_headline_long: "Conhecer os VIP's"
+    meet_vips_headline_new: "Conhecer os VIP's"
+    meet_vips_message: "Nas datas seguintes faça click no botão „new friend“ e você podera ganhar uma celebridade como seu amigo."
+    meet_vips_message_long: "<p>Conhecer vips</p>"
+    meet_vips_message_new: "<p>Conhecer vips.</p>"
+    message_from: "Mensagem de {{domain}}"
+    more_contact_possibilities: "Outros contatos"
+    more_contest_information_btn: "Imformação concurso"
+    more_on_blog: "Descubra mais em nosso blog"
+    more_results_btn: "Mais resultados"
+    more_videos_btn: "Mais videos"
+    mute_btn: "Sem som"
+    my_friends_cooliris: "Meus amigos"
+    my_possibilities: "Minhas aplicações"
+    my_possibilities_link: "Editar minhas aplicações"
+    my_profile: "Meu perfil"
+    my_profile_link: "Meu perfil"
+    my_website: "Meu website"
+    new_chat_messages: "Por favor, verifique a janela da conersação, você recebeu mensagens novos."
+    new_email: "Novo email"
+    new_friend_chance_message: "Hoje tem a chance de conhecer um novo amigo!"
+    new_friend_headline: "É hora de fazer um novo amigo!"
+    new_friend_intro: "Ficamos felizes em lhe apresentar a... {{user}}"
+    new_friend_is: "Seu amigo hoje é<br /><span>{{user}}</span>"
+    new_friend_message: "Muitas vezes, você encontra as pessoas mais interessantes que por coincidência. Então surpreenda-se e conhecer pessoas diferentes, com uma FriendADay. Existem algumas regras / Limitações do que nós pedimos que você considere:  Você começa exatamente um amigo por dia.  Seu novo amigo será escolhido por acaso. Os únicos critérios comuns que é necessário é a língua falada.  Depois de conseguir um novo amigo você deve pelo menos dizer 'Olá' para ele / ela no OneFriendADay chat.  Seja educado ao seu novo amigo e tratar uns aos outros com respeito. "
+    new_here: "Novo usuário?"
+    new_item: Novo
+    new_messages: Novos
+    newer_btn: "mais recente"
+    newsletter_subscribers: "Assinantes Newsletter"
+    newsletters: Newsletter
+    next: "Seguinte &raquo;"
+    next_step: "Passo seguinte"
+    next_steps: "Passos seguintes"
+    no_active_chats: "Não conversaçao ativo"
+    no_comments_yet: "Por agor você não tem comentarios"
+    no_comments_yet_public: "{{user}} não tem comentarios!"
+    no_friend_found_btn: "Nenhum amigo foi encontrado.<br><span>Tente novamente!</span>"
+    no_images_yet_message: "Nenhuma imagem foi subida ainda."
+    no_images_yet_message_public: "{{user}} ainda não tem fotos."
+    no_more_results: "Não mais resultados"
+    no_possibility_yet: "Ainda não disponível"
+    not_matching: "Não comparar"
+    not_notify_me: Não
+    notify_friend: "Notificar amigo"
+    notify_me_status: "A configuração padrão"
+    notify_user_btn: "Enviar um email de notificação"
+    ofad_notification: "Notificação de Onefriendaday"
+    ofad_welcome: "Bem-vindo à Ofad"
+    older_btn: Antigo
+    open_id_directions: OpenID
+    openid_no_user_message: "Desculpe, o usuário com a identidade URL {{openid_url}} não existe"
+    or: or
+    or_text: "ou {{cancel}}"
+    password: Senha
+    password_confirmation_hint: "Escreva sua senha novamente"
+    password_hint: "Escreva sua senha."
+    personal_message_label: "Mensagem pessoal"
+    personal_message_prefill: "Oi! Como vai? Vem à onefriendaday.com e fala comigo"
+    pictures_tab: Fotos
+    play_game_btn: "Jogar agora!"
+    play_games: "Jogar jogos"
+    please_wait_message: "{{spinner}} Por favor, espere..."
+    please_wait_until_countdown_is_over: "Desculpe, você não fez um amigo. A contagem regressiva parará quando sair da página"
+    pn: PN
+    possibilities_not_set: "Você ainda não definiu suas aplicações."
+    possibilities_title: Aplicações
+    preferences: Preferências
+    press: Imprensa
+    previous: "&laquo; Prévio"
+    read_more_btn: "Ler mais"
+    ready: Pronto
+    receive_new_friend_btn: "Fazer um novo amigo"
+    received_message: "Você recebeu um recado de {{user}}"
+    register_link: Registrar
+    remember_me: "Memorizar neste computador"
+    remind_me_btn: "Lembrar-me por email"
+    remove_fav_friend_btn: "Excluir de seus amigos favoritos"
+    reset_password: "Restaurar a senha"
+    reset_password_headline: "Restaurar a senha"
+    rush_hour_headline_new: "Assista à nossos eventos!"
+    rush_hour_message_new: "<p>Fazer login quando a maioria de usuarios sejam online.</p>"
+    rush_hours_headline: "Horas do rush"
+    rush_hours_message: "Aproveite ao maximo OneFriendAday. Nas datas seguintes, faça click no botão „fazer um amigo“ enquanto a maioria de usuarios estiver online."
+    save_and_continue_editing: "Salvar e continuar"
+    save_app_btn: Salvar
+    save_contactinfo_submit: "Salvar as modificações"
+    search_for_app: Buscar
+    searching_friend: "Procurando um amigo..."
+    seconds: segundos
+    send_a_email_btn: "Enviar um email"
+    send_email: "Enviar o email"
+    send_email_to_friend: "Envie um email ao seu amigo."
+    send_mail_submit: "Enviar email"
+    send_message_submit: "Enviar a mesagem"
+    set_as_profileimage: "Definir como avatar"
+    set_your_timezone_btn: "Definir seu fuso horário"
+    settings_for_app: "Configurações para {{app}}"
+    settings_link: "Edita meu profile"
+    settings_saved_message: "Suas configurações foram guardadas."
+    settings_title: Configurações
+    setup_your_profile: "Defina seu perfil"
+    sex_label: Sexo
+    show_all: "Mostrar tudo"
+    show_all_vips_btn: "Mostrar todos os Vips"
+    show_events_btn: "Mostrar todos os eventos"
+    show_filter: Filtrar
+    signup: Entrar
+    signup_cannot_sent_message: "Por enquanto, o mensagem sign-in não foi enviado a '{{email}}'. Por favor, tente mais tarde."
+    signup_complete_message: "Seu cadastro foi realizado!"
+    signup_info: "É gratis para todos."
+    signup_now_btn: "Cadastre-se agora!"
+    signup_now_headline: "Novo aqui?"
+    signup_permanent_error_message: "Um erro permanente aconteceu enquanto estava-se enviando o sign-in mesagem a '{{email}}'. Por favor verifique o endereço de email"
+    signup_step_possibilities_intro: "Aqui você pode adicionar/editar suas aplicações."
+    signup_submit: Signin
+    signup_with_openid_btn: "ou entrar com OpenID"
+    special_events: "Eventos especiais"
+    special_events_long_text: "Encontrar um amigo agora"
+    special_information: Sugestão
+    start_btn: Começar
+    start_chatting: "Começar um bate-papo!"
+    statistics: Estatísticas
+    step: Passo
+    submit_changes: "Aplicar modificações"
+    tell_a_friend_btn: "Contar para um amigo"
+    tell_a_friend_link: "Conte a um amigo"
+    temporary_login_message: "Um login email provisório foi enviado a '{{email}}'."
+    terms_of_use: "Termos de uso"
+    this_is_your_profile: "Olá{{user}}! Este é seu perfil pessoal. Somente é visível pros seus amigos."
+    this_user_doesnt_exist_longtext: Upps!
+    this_user_doesnt_exist_title: "Este usuário não existe."
+    tour_link: Roteiro
+    type_in_message_label: "Escreva na sua mesagem:"
+    unmute_btn: Som
+    upload_images: "Subir imagems"
+    upload_link_innerhtml: Subir
+    upload_pictures_btn: "Subir fotos"
+    user_has_no_apps: "O usuário não tem aplicações nesta categoria{{title}}"
+    user_has_written: escreveu
+    user_is_notified: "O usuario foi notificado"
+    user_offline: (offline)
+    user_online: (online)
+    username: Usuário
+    username_not_available: "O nome de usuário não esta disponível. Por favor tente com outro"
+    userpage: "perfil de {{user}}"
+    users: Usuários
+    video_chat: Webcam
+    video_contest_headline: "Video concurso"
+    video_contest_intro: "faça um video!"
+    view_details_btn: "Ver detalhes"
+    view_profile_btn: "Ver seu perfil"
+    vip_info_message: "Faça login nestes dias e<br /><você terá a chance de fazer<br />um novo amigo Vip"
+    viplist_empty: "Não há VIP's disponiveis neste momento."
+    waiting_for_a_friend: "Esperarndo um amigo"
+    website_hint: "Sem http://"
+    welcome_back_headline: "Seja bem-vindo outra vez!"
+    welcome_back_one: "Olá {{user}}!<br />A ultima vez que você entrou: {{date}}"
+    what_can_i_do: "O que eu posso fazer?"
+    what_can_i_do_with: "O que eu posso fazer com {{user}}"
+    what_else_todo: "O que mais eu posso fazer?"
+    what_is: "O que é {{app}}?"
+    win_price_headline: "Ganhar um presente"
+    win_price_message: "Nas datas seguintes faça click no botão „new friend“ e ganhe um presente patrocinado por OneFriendAday."
     win_prices_headline: "Mit oneFriendAday Preise gewinnen!"
-    
+    wrong_user_message: "Você não é {{user}}, então {{logout}}"
+    yes_notify_me: Sim!
+    you: Você
+    you_are_new_headline: "Você é novo"
+    you_are_new_message: "Você tem certeza que encheu toda a informação? Caso afirmativo, faça click em 'new friend'"
+    you_got_a_new_message_from: "Você tem uma nova mensagem de {{user}}"
+    you_were_connected_to: "Você foi conectado à {{friend}}"
+    you_where_invited_to_play: "{{user}} convidou você para jogar{{game}}."
+    your_ofad_team: "Seu time oneFriendaDay!"
+    your_open_id_hint: "Sua conta OpenID url"
+    your_profile_picture: "Seu avatar"
+    your_timezone_now: "Seu fuso horário: {{zone}}/{{time}}"
